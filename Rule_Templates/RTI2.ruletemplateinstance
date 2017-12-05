@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RuleTemplateInstance id="e07a390b-4caa-4bb9-9c76-f3716ee131ab" implementsPath="/Rule_Templates/SpecialOffers" priority="5">
+    <filter id="151248999563981142954" matchType="Match Any">
+        <filter id="151248999563990634841" operator="is null">
+            <link type="/Concepts/Applicant.concept" name="applicant"/>
+            <link type="String" name="Status"/>
+            <filterValue/>
+        </filter>
+    </filter>
+    <actions>
+        <command actionType="modify" type="/Concepts/CreditCard.concept" alias="card">
+            <filter id="151249007777337537299" operator="set to">
+                <link type="double" name="InterestRate"/>
+                <filterValue value="10"/>
+            </filter>
+        </command>
+        <command actionType="modify" type="/Concepts/Applicant.concept" alias="applicant">
+            <filter id="1512490121159242274199" operator="set to">
+                <link type="String" name="Status"/>
+                <filterValue value="abc"/>
+            </filter>
+        </command>
+    </actions>
+</RuleTemplateInstance>
