@@ -7,7 +7,7 @@
   </md>
   <decisionTable>
     <rule id="1">
-      <cond id="1_1" colId="1" expr="> 20" displayValue="> 20"/>
+      <cond id="1_1" colId="1" expr="> 21" displayValue="> 20"/>
       <act id="1_2" colId="2" expr=""/>
       <act id="1_3" colId="3" expr="&quot;Sr : &quot; + bankuser.Name" displayValue="&quot;Sr : &quot; + bankuser.Name"/>
     </rule>
