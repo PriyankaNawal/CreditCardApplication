@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RuleTemplateInstance id="c7dc7507-43d0-451e-9536-e8f680db1c50" implementsPath="/Rule_Templates/SpecialOffers" priority="0">
+<RuleTemplateInstance id="c1038ee0-72ef-4bd2-b867-382c5c05918d" implementsPath="/Rule_Templates/SpecialOffers" priority="0">
     <filter id="1454306336465322865893" matchType="Match Any">
         <filter id="145430633646629542507" operator="greater than">
             <link type="/Concepts/Applicant.concept" name="applicant"/>
