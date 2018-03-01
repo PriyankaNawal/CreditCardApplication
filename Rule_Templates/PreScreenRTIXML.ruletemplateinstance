@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RuleTemplateInstance id="9836b517-7dea-4f3b-a55d-0e095af81d14" implementsPath="/Rule_Templates/Applicant_PreScreen" priority="0">
+    <actions/>
+    <binding id="minimumIncome" value="21000"/>
+    <binding id="minimumAge" value="21"/>
+    <binding id="creditType" value="Installment"/>
+</RuleTemplateInstance>
